@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- node
+script:
+- npm run test
+deploy:
+  provider: npm
+  email: jpoehnelt@google.com
+  api_key:
+    secure: A5hV39s4qJF6ZfzRLh1tQi6exWJXCRioe0/McnWx0CJHyp7yYxxCARkr5QPH3hWmatSfsQz+H+PP56FZDeTv3dD62/wlq+60+JHYsBOPwGO1CjoCYtnPV3DNttZTNBexwxNmwbaKPRQM0LKzzWv0JtKTZKJEJVLzMcp3dovyvQk9uY/StZXYdk8fcE0qOSQQD8SZTQUnRQB6r9oKIVPtKTpsN5Y8su+VW8da8tz2TaP82vZiBvVJ5cttZXe9i2es2jGNiGx5QKolqhyOJP9CAdOQ6H4DqS8ZaJLACEAogN/cGV16xxEU8zOBJ55hOu2MHgV/sKpeLDIJsGQoSxAwe+2KD0Q8Y68nMpWy5EbLFD+wgtn30PjEIWgP2zX0iZz8aS/9c9BsbZvdK9wcUXI1rwivcXEXWaunsHVll/AHgzXYVnxIZcJJBzE9IU7OWWPPO0IZmsM6q42XTA/iVdIIhJIhm6MIgp+QzYBEzqYbNxtKmrBx4M/VBmzjQQ0Ec3D4CgJu9RN12qEUx6WRqXebH3yJas4LpXGphC67unn6MCaG0/jB/9y/IpHsSzN0fKlh2HpmCa54OsQ+Um7HA2YeG0P56bAE641II0ybgRK3IQQE3YRgjEHr1XrPc/vV4jMEs4XdJ+uOmGRxVLFFFvGMPkIEIrq4PiMYpbKuqJvchNo=
+  on:
+    tags: true

@@ -1,0 +1,29 @@
+{
+  "name": "jpoehnelt_test_npm_package",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpoehnelt/test_npm_package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpoehnelt/test_npm_package/issues"
+  },
+  "homepage": "https://github.com/jpoehnelt/test_npm_package#readme",
+  "contributors": [
+    {
+      "name": "Justin Poehnelt",
+      "email": "jpoehnelt@google.com"
+    }
+  ],
+  "publishConfig": {
+    "registry": "https://wombat-dressing-room.appspot.com",
+    "access": "public"
+  }
+}
